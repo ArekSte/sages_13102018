@@ -1,0 +1,307 @@
+    1  wget http://download.virtualbox.org/virtualbox/5.1.18/virtualbox-5.1_5.1.18-114002~Ubuntu~xenial_amd64.deb
+    2  sudo VBoxManage extpack install --replace virtualbox-5.1_5.1.18-114002~Ubuntu~xenial_amd64.deb 
+    3  ls
+    4  rm virtualbox-5.1_5.1.18-114002~Ubuntu~xenial_amd64.deb 
+    5  wget https://repo.continuum.io/archive/Anaconda3-4.3.1-Linux-x86_64.sh
+    6  bash Anaconda3-4.3.1-Linux-x86_64.sh 
+    7  exit
+    8  java
+    9  conda search pytho
+   10  conda search python
+   11  conda create --name python35 python=3.5.3
+   12  source activate python35
+   13  wget http://d3kbcqa49mib13.cloudfront.net/spark-2.1.0-bin-hadoop2.7.tgz
+   14  tar tzvf spark-2.1.0-bin-hadoop2.7.tgz 
+   15  tar xzvf spark-2.1.0-bin-hadoop2.7.tgz 
+   16  ln -s spark-2.1.0-bin-hadoop2.7 spark
+   17  ll
+   18  vim .bashrc
+   19  sudo apt install vim
+   20  mc
+   21  sudo apt install mc
+   22  vim .bashrc
+   23  ls spark/python/lib/py4j-0.10.4-src.zip 
+   24  vim .bashrc
+   25  exit
+   26  source activate python35
+   27  python
+   28  exit
+   29  sudo add-apt-repository ppa:webupd8team/java
+   30  sudo apt-get update
+   31  sudo apt-get install oracle-java8-installer
+   32  java -version
+   33  ls
+   34  rm spark-2.1.0-bin-hadoop2.7.tgz 
+   35  rm Anaconda3-4.3.1-Linux-x86_64.sh 
+   36  source activate python35
+   37  python
+   38  exit
+   39  vim tst.txt
+   40  python
+   41  exit
+   42  history | less
+   43  vim .bashrc
+   44  history | less
+   45  sudo add-apt-repository ppa:webupd8team/atom
+   46  sudo apt update
+   47  sudo apt list --upgradable
+   48  sudo apt install atom
+   49  atom 
+   50  exit
+   51  df -h
+   52  history | less
+   53  exit
+   54  tar tzvf Pobrane/pycharm-community-2016.3.3.tar.gz pycharm-community-2016.3.3/
+   55  tar xzvf Pobrane/pycharm-community-2016.3.3.tar.gz 
+   56  cd Pobrane/
+   57  ls
+   58  rm pycharm-community-2016.3.3.tar.gz 
+   59  cd ..
+   60  ls
+   61  cd pycharm-community-2016.3.3/
+   62  ls
+   63  vim Install-Linux-tar.txt 
+   64  bin/pycharm.sh 
+   65  cd ..
+   66  ls
+   67  cd PycharmProjects/
+   68  ls
+   69  rm -rf untitled/
+   70  cd ..
+   71  l
+   72  exit
+   73  pwd
+   74  ls
+   75  cd Desktop/
+   76  cd Pulpit
+   77  ls
+   78  cd..
+   79  cd /
+   80  ls
+   81  bin$
+   82  cd bin
+   83  ls
+   84  cd /
+   85  pwd
+   86  ls
+   87  cd bin/
+   88  cd /
+   89  cd bin
+   90  ls
+   91  cd ..
+   92  ls
+   93  cd sbin
+   94  ls
+   95  cd ..
+   96  cd /
+   97  cd tmp
+   98  ls
+   99  cd /tmp
+  100  pwa
+  101  pwd
+  102  mkdir katalog1
+  103  ls
+  104  cd katalog1
+  105  mkdir katalog2
+  106  cd katalog2
+  107  ls
+  108  ls -a
+  109  ls -al
+  110  cd..
+  111  cd ..
+  112  cd .
+  113  man ls
+  114  touch
+  115  touch .ukryty
+  116  ls
+  117  ls -a
+  118  cd kataog2
+  119  ls
+  120  cd katalog2
+  121  cd ..
+  122  rm .ukryty
+  123  cd katalog2
+  124  mkdir katalog3
+  125  ls
+  126  rm katalog3
+  127  man rm
+  128  rmdir katalog3
+  129  ls
+  130  man touch
+  131  mkdir .ukryty_folder
+  132  ls
+  133  ls -a
+  134  touch plik_testowy.txt
+  135  ls
+  136  man echo
+  137  echo "Ing datascience is cool"
+  138  echo "Ing datascience is cool" > plik_testowy.txt
+  139  ls
+  140  cat plik_testowy.txt
+  141  echo "Ing datascience is very cool" > plik_testowy.txt
+  142  cat plik_testowy.txt
+  143  echo "Ing datascience is very cool" >> plik_testowy.txt
+  144  cat plik_testowy.txt
+  145  echo "Ing datascience is very cool" >> plik_testowy.txt
+  146  cat plik_testowy.txt
+  147  echo "Ing datascience is very cool" > plik_testowy.txt
+  148  cat plik_testowy.txt
+  149  echo "Ing datascience is very cool" >> plik_testowy.txt
+  150  cat plik_testowy.txt
+  151  echo "Ing datascience is pretty cool" >> plik_testowy.txt
+  152  cat plik_testowy.txt
+  153  head plik_testowy.txt
+  154  tail plik_testowy.txt
+  155  head -5 plik_testowy.txt
+  156  cat plik_testowy.txt | head -5
+  157  cat plik_testowy.txt | head -5 | tail -2
+  158  cat plik_testowy.txt | wc
+  159  wc -l
+  160  cat plik_testowy.txt | wc -l
+  161  history
+  162  echo "Ing datascience is ok" >> plik_testowy.txt
+  163  ech
+  164  echo
+  165  ls help
+  166  ls --help
+  167  men --help
+  168  man --help
+  169  cat plik_testowy.txt | grep Ing
+  170  cat plik_testowy.txt | grep --color  Ing
+  171  cat plik_testowy.txt | grep --color  ing
+  172  cat plik_testowy.txt | grep --color  very
+  173  man grep
+  174  cat plik_testowy.txt | grep --color -i  ing
+  175  man grep
+  176  cat plik_testowy.txt | grep --color -i  ing d
+  177  cat plik_testowy.txt | grep --color -i "ing d"
+  178  whoami
+  179  apt -get install postgres
+  180  apt-get install postgres
+  181  sudo apt-get install postgres
+  182  sudo apt-cache search postgres
+  183  apt-get install postgresql
+  184  sudo apt-get install postgresql
+  185  env
+  186  env | grep -i user
+  187  env | grep -i anaconda
+  188  echo $PATH
+  189  echo &PWD
+  190  echo $PWD
+  191  ls
+  192  env
+  193  env | grep -i anaconda
+  194  ps
+  195  ps -a
+  196  ps -au
+  197  ps -au | grep firefox
+  198  ps -aux
+  199  vim
+  200  md nasze_dane
+  201  mkd nasze_dane
+  202  mkdir nasze_dane
+  203  cd nasze_dane
+  204  history
+  205  cat imiona.txt
+  206  touch imiona.txt
+  207  echo "Arek">>imiona.txt
+  208  echo "Łukasz">>imiona.txt
+  209  echo "Martyna">>imiona.txt
+  210  echo "Tomek">>imiona.txt
+  211  echo "Ewelina">>imiona.txt
+  212  cat imiona.txt
+  213  sort imiona.txt
+  214  cat imiona.txt
+  215  echo "Adam">>imiona.txt
+  216  cat imiona | wc
+  217  cat imiona | wc -l
+  218  cat imiona.txt | wc -l
+  219  uniq imiona.txt
+  220  uniq imiona.txt | wc -l
+  221  /var/log/syslog
+  222  cd /var/log/syslog
+  223  cd /var/log/
+  224  cat syslog
+  225  cat syslog -head
+  226  cat head -5 syslog
+  227  history
+  228  head -5 syslog
+  229  tail -5 syslog
+  230  cat syslog | grep -i error
+  231  cat syslog | grep -i error | wc -l
+  232  cat syslog | grep -i error | wc
+  233  man wc
+  234  cat syslog | grep -i error | wc - w
+  235  man wc
+  236  cat syslog | grep -i error | wc - m
+  237  cat syslog | grep -i error | wc -w
+  238  cat syslog | grep -i error | wc -m
+  239  ls
+  240  ls -al
+  241  ls -al | grep -i error
+  242  man grep
+  243  man count
+  244  man
+  245  coun
+  246  man wc
+  247  cat syslog | grep -i error | wc -w
+  248  man grep
+  249  cat syslog | grep -io error | wc -w
+  250  cat syslog | grep -i error | wc -w
+  251  cat syslog | grep -io error
+  252  cat syslog | grep -i -o error | wc -w
+  253  cat syslog | grep -i -o error | wc -l
+  254  cat syslog | grep -i -o error
+  255  cat syslog | grep -i error | wc -l
+  256  cat syslog | grep -i -o error | wc -l
+  257  cat syslog | grep -i -o error
+  258  cat syslog | grep -i error
+  259  cat syslog | grep -io error
+  260  cat syslog | grep -io error | wc -w
+  261  cat syslog | grep -io error | wc -l
+  262  man grep
+  263  cat syslog | grep -io error | wc -l -1
+  264  cat syslog | grep -io error | wc -l | -1
+  265  cat syslog | grep -io error | wc -l-1
+  266  cat syslog | grep -io error | wc-1 -l
+  267  cat syslog | grep -io error | wc -l
+  268  history
+  269  python
+  270  cd ~/
+  271  cd ~ /
+  272  ls
+  273  pwd
+  274  mkdir code
+  275  cd code
+  276  mkdir sages_13102018
+  277  ls
+  278  cd sages_13102018
+  279  echo "# sages_13102018">>READMES.md
+  280  echo "# sages_13102018">>README.md
+  281  git init
+  282  ls -al
+  283  git status
+  284  cd ..
+  285  git status
+  286  cd sages_13102018
+  287  git status
+  288  git add README.md
+  289  git status
+  290  git commit -m "Dodałem plik README.md"
+  291  git config --global user.email "arkadiuszste@gmail.com"
+  292  git config --global user.name "Arek"
+  293  git config --list
+  294  git log
+  295  git status
+  296  git remote add origin https://github.com/ArekSte/sages_13102018.git
+  297  git remote -v
+  298  git push -u origin master
+  299  git log
+  300  git commit -m "Dodałem plik README.md"
+  301  git log
+  302  git push -u origin master
+  303  git blame
+  304  git blame README.md
+  305  anaconda navigator
+  306  anaconda-navigator
+  307  history > historia_kons1
